@@ -1,0 +1,20 @@
+{% extends "header.html" %}
+
+
+{% block content %}
+{% load crispy_forms_tags %}
+
+
+<div class="container py-5">
+  <h1>Contact Us</h1>
+  <form method="post">
+    {% csrf_token %}
+    {{ form|crispy }}
+    <!-- {{ form.as_p }} -->
+    <!-- <div class="form-actions">
+        <button type="submit">Send</button>
+      </div> -->
+    <button class="btn btn-primary" type="submit">Send</button>
+  </form>
+</div>
+{% endblock %}

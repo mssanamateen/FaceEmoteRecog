@@ -1,0 +1,86 @@
+html,body{
+    background-color:white !important ;
+    min-height: 100%;
+    position: relative;
+  }
+  .header {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    background-color:#1abc9c;
+    text-align: right;
+    margin: 0;
+  }
+  .title{
+      text-align: left;
+  }
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  .nav-item {
+    padding: 0 18px;
+    list-style-type:none;
+  }
+  .nav-link {
+    font-size: 1.5rem;
+    color: white;
+  }
+  .nav-link:hover{
+    text-decoration: none;
+  }
+  
+  .login-form {
+      width: 340px;
+      margin: 50px auto;
+        font-size: 15px;
+      border-radius: 10px;
+      color: #1abc9c;
+  }
+  .login-form form {
+      margin-top: 15px;
+      margin-bottom: 15px;
+      background: #f7f7f7;
+      background-color: rgba(0,0,100%,80%) !important;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0.5, 0.5)!important;
+      padding: 30px;
+  }
+  .login-form h2 {
+      margin: 0 0 15px;
+  }
+  .form-control, .btn {
+      min-height: 38px;
+      border-radius: 2px;
+  }
+  .btn {
+      font-size: 15px;
+      font-weight: bold;
+      background-color: #1abc9c !important;
+  }
+  .page-footer {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    background-color:#1abc9c;
+    text-align: center;
+    margin: 0;
+  }
+  .page-footer p{
+      margin-top: 25px;
+      font-size: 12px;
+    color: #fff;
+  
+  }
+  @media (max-width: 1028px) {
+  
+    #title {
+      text-align: center;
+    }
+  
+  }
+  
